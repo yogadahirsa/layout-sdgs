@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <title>Home</title>
+
+    <style>
+        .left {
+          text-align: left;
+        }
+        .center {
+          text-align: center;
+        }
+        .content {
+          padding-bottom: 50px;
+          padding-top: 40px;
+        }
+        .header {
+            background: #800035 !important;
+            height: 40px;
+        }
+        .menu {
+            color: #ffffff;   
+        }
+        .menu > span {
+            margin: 3px;
+        }
+        .menu1 {
+            border: 1px solid #ffffff;
+            padding: 5px 12px;
+            font-size: small;
+        }
+        .menu1 > a:link {
+            color: #ffffff !important;
+            text-decoration: none;
+        }
+        .menu1 > a:active {
+            color: #ffffff !important;
+            text-decoration: none;
+        }
+        .menu1 > a:visited {
+            color: #ffffff !important;
+            text-decoration: none;
+        }
+        .menu1 > a:hover {
+            color: #0056b3 !important;
+            text-decoration: none;
+        }
+        .footer {
+            height: 40px;
+            background: black;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+        }
+        .footer-copy {
+            color: #ffffff;
+        }
+        .mybutton {
+            color: #ffffff;
+            text-decoration: none;
+            text-align: center;
+            display: block;
+            border-radius: 2px;
+            line-height: 36px;
+            box-sizing: border-box;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            -ms-appearance: none;
+            appearance: none;
+            background: none;
+            padding: 0 10px;
+            margin: 0;
+            height: 36px;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            font-size: 14px;
+            text-transform: uppercase;
+            font-family: inherit;
+            cursor: pointer;
+            min-width: 64px;
+            padding: 0 8px;
+            position: relative;
+            overflow: hidden;
+            outline: 0;
+            -webkit-transition-duration: 300ms;
+            transition-duration: 300ms;
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+            border: 0px solid #bbb;
+            width: 50%;
+            background: #800035;
+        }
+    </style>
+</head>
+<body>
+    <div class="header container-fluid">
+        <div class="row align-items-center">
+            <div class="col-4">
+                <img src="assets/logo-bps.png" class="float-left" height="40px">
+            </div>
+            <div class="col-4"></div>
+            <div class="col-4 menu">
+                <span class="menu1"><a href="index.html">Main website</a></span>
+                <span class="menu2"><i class="fas fa-home"></i></span>
+                <span class="menu3"><i class="fas fa-sitemap fa-rotate-270"></i></span>
+                <span class="menu4"><i class="fas fa-sliders-h"></i></span>
+                <span class="menu5">EN / ID</span>
+                <span class="menu6"><i class="fas fa-ellipsis-v"></i></span>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid content">
+        <div class="row">
+          <div class="col-4">
+            <img src="assets/logo-sdg-dashboard.png" class="mx-auto" width="100%">
+            <br>
+            <a href="makro.html" class="mybutton mx-auto">VISIT MAKRO</a>
+          </div>
+          <div class="col-8 left">
+            <h3>
+              SELAMAT DATANG DI DASHBOARD SDGs INDONESIA
+            </h3>
+            <p>
+              NAWACITA sebagai acuan agenda pembangunan nasional yang diterjemahkan sebagai arah utama RPJMN 2015-2019 hingga RPJMN 2020-2024, bertujuan untuk meningkatkan kesejahteraan masyarakat. Tujuan ini sejatinya selaras dengan Tujuan Pembangunan Berkelanjutan (TPB) atau Sustainable Development Goals (SDGs) yang merupakan kesepakatan 193 negara anggota Perserikatan Bangsa-Bangsa yang ditetapkan pada tahun 2015 yaitu meningkatkan kesejahteraan masyarakat global termasuk Indonesia. Oleh karenanya SDGs sebagai agenda pembangunan global sungguh sejalan dengan RPJMN dan merupakan bagian yang tak terpisahkan dari agenda pembangunan nasional.
+            </p>
+            <p>
+              Indonesia berkomitmen kuat untuk melaksanakan SDGs karena tujuan pembangunan nasional dan tujuan pembangunan global saling menguatkan. DASHBOARD SDGs merupakan visualisasi dari capaian indikator SDGs Indonesia untuk 17 Tujuannya (Goals), yang sebagian besar merupakan indikator pembangunan baik di tingkat nasional maupun daerah. Dashboard ini disusun dan dimutakhirkan oleh Kementerian Perencanaan Pembangunan Nasional/BAPPENAS selaku koordinator pelaksanaan SDGs di Indonesia bersama BPS dan didukung oleh Lembaga-lembaga UN. Data dari pihak nonpemerintah merupakan bagian yang tidak terpisahkan dalam pemutakhiran data SDGs. 
+            </p>
+            <div class="thumbnail">
+              <img src="assets/thumbnail.png" width="100%">
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="footer container-fluid">
+        <div class="row h-100">
+            <div class="col-6 footer-copy my-auto">
+                Copyright.&copy; 2020 All Rights Reserved by BAPPENAS and BPS. 
+            </div>
+            <div class="col-6 my-auto">
+                <img src="assets/durelogo.png" class="float-right" height="20px">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

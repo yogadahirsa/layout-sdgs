@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <title>Makro</title>
+
+    <style>
+        .left {
+          text-align: left;
+        }
+        .center {
+          text-align: center;
+        }
+        .content {
+          padding-bottom: 50px;
+          padding-top: 40px;
+        }
+        .header {
+            background: #800035 !important;
+            height: 40px;
+        }
+        .menu {
+            color: #ffffff;   
+        }
+        .menu > span {
+            margin: 3px;
+        }
+        .menu1 {
+            border: 1px solid #ffffff;
+            padding: 5px 12px;
+            font-size: small;
+        }
+        .menu1 > a:link {
+            color: #ffffff !important;
+            text-decoration: none;
+        }
+        .menu1 > a:active {
+            color: #ffffff !important;
+            text-decoration: none;
+        }
+        .menu1 > a:visited {
+            color: #ffffff !important;
+            text-decoration: none;
+        }
+        .menu1 > a:hover {
+            color: #0056b3 !important;
+            text-decoration: none;
+        }
+        .footer {
+            height: 40px;
+            background: black;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+        }
+        .footer-copy {
+            color: #ffffff;
+        }
+        .bg-brown {
+            background: #c3971d;
+            margin: 10px;
+        }
+        .h120 {
+            height: 120px;
+        }
+        .bg-brown > p > img {
+            margin: 20px;
+        }
+        .bg-brown > p {
+            color: #ffffff;
+        }
+        .visitsdgbtn {
+            margin: 0 auto; 
+            border-radius: 5px;
+            background: #800035;
+            width: 100%;
+            color: #ffffff;
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header container-fluid">
+        <div class="row align-items-center">
+            <div class="col-4">
+                <img src="assets/logo-bps.png" class="float-left" height="40px">
+            </div>
+            <div class="col-4"></div>
+            <div class="col-4 menu">
+                <span class="menu1"><a href="index.html">Main website</a></span>
+                <span class="menu2"><i class="fas fa-home"></i></span>
+                <span class="menu3"><i class="fas fa-sitemap fa-rotate-270"></i></span>
+                <span class="menu4"><i class="fas fa-sliders-h"></i></span>
+                <span class="menu5">EN / ID</span>
+                <span class="menu6"><i class="fas fa-ellipsis-v"></i></span>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid content center">
+        <div class="row indikator">
+            <div class="col-2"></div>
+            <div class="col">
+                <h2 class="text-left">Indikator Sasaran Makro Pembangunan</h2>    
+            </div>
+            <div class="col-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col bg-brown">
+                <p><img class="h120" src="assets/tingkat-kemiskinan.png"></p>
+                <p>Tingkat Kemiskinan</p>
+            </div>
+            <div class="col bg-brown">
+                <p><img class="h120" src="assets/tingkat-pengangguran-terbuka.png"></p>
+                <p>Tingkat Pengangguran Terbuka</p>
+            </div>
+            <div class="col bg-brown">
+                <p><img class="h120" src="assets/gini-rasio.png"></p>
+                <p>Gini Rasio</p>
+            </div>
+            <div class="col-2"></div>
+        </div>
+        
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col bg-brown">
+                <p><img class="h120" src="assets/pertumbuhan-ekonomi.png"></p>
+                <p>Pertumbuhan Ekonomi</p>
+            </div>
+            <div class="col bg-brown">
+                <p><img class="h120" src="assets/indeks-pembangunan-manusia.png"></p>
+                <p>Indeks Pembangunan Manusia</p>
+            </div>
+            <div class="col bg-brown">
+                <p><img class="h120" src="assets/semua-indikator-sasaran-makro.png"></p>
+                <p>Semua Indikator Sasaran Makro</p>
+            </div>
+            <div class="col-2"></div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <a href="indikator.html" class="visitsdgbtn">
+                    VISIT SDGS INDIKATOR
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer container-fluid">
+        <div class="row h-100">
+            <div class="col-6 footer-copy my-auto">
+                Copyright.&copy; 2020 All Rights Reserved by BAPPENAS and BPS. 
+            </div>
+            <div class="col-6 my-auto">
+                <img src="assets/durelogo.png" class="float-right" height="20px">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
